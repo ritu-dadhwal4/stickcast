@@ -1,0 +1,455 @@
+{
+  "title": "What Are ChatGPT, Claude and Gemini?",
+  "format": "portrait",
+  "style": "doodle",
+  "theme": "sapphire-coral-breeze",
+  "captions": {
+    "style": "pop"
+  },
+  "voice": {
+    "name": "Samantha",
+    "rate": 175
+  },
+  "pickerScene": 5,
+  "cast": {
+    "riya": {
+      "color": 3,
+      "acc": "pony",
+      "shirt": true
+    },
+    "gpt": {
+      "color": 2,
+      "acc": "glasses",
+      "shirt": true
+    },
+    "claude": {
+      "color": 0,
+      "acc": "bun",
+      "shirt": true
+    },
+    "gemini": {
+      "color": 1,
+      "acc": "spiky",
+      "shirt": true
+    }
+  },
+  "thumbnail": {
+    "text": "CHATGPT, CLAUDE OR *GEMINI*?",
+    "scene": 5,
+    "at": 2.6,
+    "expr": "happy"
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "line": "ChatGPT, Claude, Gemini. Everyone talks about them, but what are they?",
+      "note": "Riya stands confused while three name tags pop up around her, one on each name. A question mark pops on 'what'.",
+      "bg": "dots",
+      "props": [
+        {
+          "type": "pill",
+          "text": "ChatGPT",
+          "x": -190,
+          "lift": 480,
+          "size": 30,
+          "color": 2,
+          "in": "@ChatGPT"
+        },
+        {
+          "type": "pill",
+          "text": "Claude",
+          "x": 0,
+          "lift": 580,
+          "size": 30,
+          "color": 0,
+          "in": "@Claude"
+        },
+        {
+          "type": "pill",
+          "text": "Gemini",
+          "x": 190,
+          "lift": 480,
+          "size": 30,
+          "color": 1,
+          "in": "@Gemini"
+        }
+      ],
+      "actors": [
+        {
+          "id": "riya",
+          "x": 0,
+          "face": 1,
+          "pose": "stand",
+          "expr": "neutral",
+          "keys": [
+            {
+              "t": "@Everyone",
+              "pose": "shrug",
+              "expr": "worried"
+            },
+            {
+              "t": "@what",
+              "emote": "?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "assistants",
+      "line": "All three are AI assistants. You type a question, and they write back in seconds.",
+      "note": "Riya types at her laptop. An answer bubble pops up on 'write' and she smiles.",
+      "bg": "room",
+      "windowX": 150,
+      "frameX": -170,
+      "props": [
+        {
+          "type": "chair",
+          "x": -205,
+          "face": 1
+        },
+        {
+          "type": "desk",
+          "x": -40,
+          "w": 250
+        },
+        {
+          "type": "laptop",
+          "x": -40,
+          "y": -108,
+          "face": -1
+        }
+      ],
+      "actors": [
+        {
+          "id": "riya",
+          "x": -190,
+          "face": 1,
+          "pose": "sit",
+          "expr": "neutral",
+          "keys": [
+            {
+              "t": "@type",
+              "pose": "sitType",
+              "expr": "neutral"
+            },
+            {
+              "t": "@write",
+              "expr": "happy",
+              "emote": "!"
+            }
+          ]
+        }
+      ],
+      "bubbles": [
+        {
+          "text": "Here's your answer!",
+          "x": 150,
+          "y": -360,
+          "in": "@write",
+          "out": 99,
+          "size": 26,
+          "w": 230
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "line": "ChatGPT is made by OpenAI. It made AI chat famous in 2022.",
+      "note": "The ChatGPT character presents its maker's name, then cheers as '2022' stamps in.",
+      "bg": "grid",
+      "props": [
+        {
+          "type": "pill",
+          "text": "ChatGPT",
+          "x": -130,
+          "lift": 400,
+          "size": 28,
+          "color": 2,
+          "in": 0
+        },
+        {
+          "type": "text",
+          "text": "OpenAI",
+          "x": 140,
+          "lift": 470,
+          "size": 46,
+          "box": 2,
+          "in": "@OpenAI"
+        },
+        {
+          "type": "text",
+          "text": "2022",
+          "x": 140,
+          "lift": 250,
+          "size": 70,
+          "box": true,
+          "tilt": -0.06,
+          "in": "@2022"
+        }
+      ],
+      "actors": [
+        {
+          "id": "gpt",
+          "x": -130,
+          "face": 1,
+          "pose": "present",
+          "expr": "happy",
+          "keys": [
+            {
+              "t": "@famous",
+              "pose": "cheer",
+              "expr": "laugh"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "line": "Claude is made by Anthropic. It is popular for writing and coding.",
+      "note": "The Claude character stands by a board. 'writing' and 'coding' appear on the board as they are said, and an idea bulb pops.",
+      "bg": "plain",
+      "props": [
+        {
+          "type": "pill",
+          "text": "Anthropic",
+          "x": 130,
+          "lift": 420,
+          "size": 28,
+          "color": 0,
+          "in": "@Anthropic"
+        },
+        {
+          "type": "board",
+          "x": -140,
+          "w": 250,
+          "h": 170,
+          "lift": 130,
+          "title": "Claude",
+          "titleSize": 30,
+          "lines": [
+            "writing",
+            "coding"
+          ],
+          "reveal": [
+            "@writing",
+            "@coding"
+          ]
+        }
+      ],
+      "actors": [
+        {
+          "id": "claude",
+          "x": 130,
+          "face": -1,
+          "pose": "present",
+          "expr": "happy",
+          "hold": "pencil",
+          "keys": [
+            {
+              "t": "@writing",
+              "pose": "explain"
+            },
+            {
+              "t": "@coding",
+              "emote": "idea"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gemini",
+      "line": "Gemini is made by Google, and it works inside apps like Gmail and Docs.",
+      "note": "The Gemini character looks at a phone. A big phone pops up showing Gmail and Docs, and Gemini points at it.",
+      "bg": "city",
+      "props": [
+        {
+          "type": "pill",
+          "text": "Google",
+          "x": -150,
+          "lift": 420,
+          "size": 28,
+          "color": 1,
+          "in": "@Google"
+        },
+        {
+          "type": "phone",
+          "x": 150,
+          "s": 1.0,
+          "text": "Gmail Docs",
+          "in": "@apps"
+        }
+      ],
+      "actors": [
+        {
+          "id": "gemini",
+          "x": -150,
+          "face": 1,
+          "pose": "phone",
+          "expr": "neutral",
+          "hold": "phone",
+          "keys": [
+            {
+              "t": "@Gmail",
+              "pose": "point",
+              "hold": null,
+              "expr": "happy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "which",
+      "line": "So which one is best? Try the same question in all three, and keep the one that helps you most.",
+      "note": "Riya thinks. The three assistants wave one after another, and Riya smiles with a heart on 'helps'.",
+      "bg": "plain",
+      "props": [
+        {
+          "type": "pill",
+          "text": "ChatGPT",
+          "x": 20,
+          "lift": 300,
+          "size": 18,
+          "color": 2,
+          "in": "@three"
+        },
+        {
+          "type": "pill",
+          "text": "Claude",
+          "x": 135,
+          "lift": 300,
+          "size": 18,
+          "color": 0,
+          "in": "@three+0.15"
+        },
+        {
+          "type": "pill",
+          "text": "Gemini",
+          "x": 250,
+          "lift": 300,
+          "size": 18,
+          "color": 1,
+          "in": "@three+0.3"
+        }
+      ],
+      "actors": [
+        {
+          "id": "riya",
+          "x": -200,
+          "face": 1,
+          "pose": "think",
+          "expr": "worried",
+          "keys": [
+            {
+              "t": "@Try",
+              "pose": "explain",
+              "expr": "neutral"
+            },
+            {
+              "t": "@helps",
+              "expr": "love",
+              "emote": "heart"
+            }
+          ]
+        },
+        {
+          "id": "gpt",
+          "x": 20,
+          "face": -1,
+          "scale": 0.7,
+          "pose": "stand",
+          "expr": "happy",
+          "keys": [
+            {
+              "t": "@three",
+              "pose": "wave"
+            }
+          ]
+        },
+        {
+          "id": "claude",
+          "x": 135,
+          "face": -1,
+          "scale": 0.7,
+          "pose": "stand",
+          "expr": "happy",
+          "keys": [
+            {
+              "t": "@three+0.15",
+              "pose": "wave"
+            }
+          ]
+        },
+        {
+          "id": "gemini",
+          "x": 250,
+          "face": -1,
+          "scale": 0.7,
+          "pose": "stand",
+          "expr": "happy",
+          "keys": [
+            {
+              "t": "@three+0.3",
+              "pose": "wave"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "follow",
+      "line": "Follow for more simple tech in sixty seconds.",
+      "note": "'FOLLOW' stamps in and everyone cheers.",
+      "bg": "sunburst",
+      "minDur": 3.2,
+      "props": [
+        {
+          "type": "text",
+          "text": "FOLLOW",
+          "x": 0,
+          "lift": 560,
+          "size": 66,
+          "box": true,
+          "tilt": -0.05,
+          "in": 0.15
+        }
+      ],
+      "actors": [
+        {
+          "id": "riya",
+          "x": -180,
+          "face": 1,
+          "pose": "cheer",
+          "expr": "laugh"
+        },
+        {
+          "id": "gpt",
+          "x": 20,
+          "face": -1,
+          "scale": 0.7,
+          "pose": "celebrate",
+          "expr": "happy"
+        },
+        {
+          "id": "claude",
+          "x": 135,
+          "face": -1,
+          "scale": 0.7,
+          "pose": "cheer",
+          "expr": "laugh"
+        },
+        {
+          "id": "gemini",
+          "x": 250,
+          "face": -1,
+          "scale": 0.7,
+          "pose": "celebrate",
+          "expr": "happy"
+        }
+      ]
+    }
+  ]
+}

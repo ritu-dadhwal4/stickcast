@@ -1,0 +1,1134 @@
+{
+ "about": "stickcast themes. Classic looks are original. Palette themes use the colour sets from Figma's colour palette collection (figma.com/color-palettes); stickcast assigns each palette to background, line and character colours automatically. Add \":dark\" or \":light\" after any id to flip it, or pass your own hex list.",
+ "themes": [
+  {
+   "id": "classic-crew",
+   "group": "classic",
+   "mode": "light",
+   "name": "Classic Crew",
+   "tags": [
+    "classic",
+    "bright",
+    "light"
+   ],
+   "bg": "#F7F7F2",
+   "ink": "#1A1A1A",
+   "crew": [
+    "#E53935",
+    "#1E88E5",
+    "#43A047",
+    "#FDD835",
+    "#FB8C00"
+   ],
+   "accent": "#1E88E5",
+   "gold": "#F2B530",
+   "note": "Bright red, blue, green, yellow and orange figures on white."
+  },
+  {
+   "id": "ink-paper",
+   "group": "classic",
+   "mode": "light",
+   "name": "Ink & Paper",
+   "tags": [
+    "classic",
+    "black-white",
+    "light"
+   ],
+   "bg": "#FAFAF7",
+   "ink": "#111111",
+   "crew": [
+    "#111111",
+    "#4A4A4A",
+    "#7A7A7A",
+    "#2B2B2B",
+    "#5E5E5E"
+   ],
+   "accent": "#111111",
+   "gold": "#9A9A9A",
+   "green": "#555555",
+   "red": "#333333",
+   "note": "Pure black and white."
+  },
+  {
+   "id": "midnight-ink",
+   "group": "classic",
+   "mode": "dark",
+   "name": "Midnight Ink",
+   "tags": [
+    "classic",
+    "black-white",
+    "dark"
+   ],
+   "bg": "#0E0E0E",
+   "ink": "#F4F4F4",
+   "crew": [
+    "#F4F4F4",
+    "#BDBDBD",
+    "#8A8A8A",
+    "#E0E0E0",
+    "#A5A5A5"
+   ],
+   "accent": "#F4F4F4",
+   "gold": "#D0D0D0",
+   "green": "#BDBDBD",
+   "red": "#E0E0E0",
+   "paper": "#F4F4F4",
+   "paperInk": "#111111",
+   "note": "White figures on black."
+  },
+  {
+   "id": "chalkboard",
+   "group": "classic",
+   "mode": "dark",
+   "name": "Chalkboard",
+   "tags": [
+    "classic",
+    "dark",
+    "school"
+   ],
+   "bg": "#28382F",
+   "ink": "#F2F0E6",
+   "crew": [
+    "#F2F0E6",
+    "#F7C8C8",
+    "#BFE3F2",
+    "#F7E3A1",
+    "#C9EBC2"
+   ],
+   "accent": "#F7E3A1",
+   "gold": "#F7E3A1",
+   "green": "#C9EBC2",
+   "red": "#F4A3A3",
+   "paper": "#F2F0E6",
+   "paperInk": "#28382F",
+   "note": "Chalk colours on a green board."
+  },
+  {
+   "id": "blueprint",
+   "group": "classic",
+   "mode": "dark",
+   "name": "Blueprint",
+   "tags": [
+    "classic",
+    "dark",
+    "tech"
+   ],
+   "bg": "#1D4E89",
+   "ink": "#EAF2FF",
+   "crew": [
+    "#EAF2FF",
+    "#FFD166",
+    "#7FE0D0",
+    "#FF8FA3",
+    "#9CC7FF"
+   ],
+   "accent": "#FFD166",
+   "gold": "#FFD166",
+   "green": "#7FE0D0",
+   "red": "#FF8FA3",
+   "paper": "#EAF2FF",
+   "paperInk": "#1D4E89",
+   "bgStyle": "blueprint",
+   "note": "Engineer blueprint."
+  },
+  {
+   "id": "neon-night",
+   "group": "classic",
+   "mode": "dark",
+   "name": "Neon Night",
+   "tags": [
+    "classic",
+    "dark",
+    "bright"
+   ],
+   "bg": "#0B0B14",
+   "ink": "#F5F5FF",
+   "crew": [
+    "#FF3B6B",
+    "#00E5FF",
+    "#B6FF3B",
+    "#FFD23F",
+    "#B66DFF"
+   ],
+   "accent": "#00E5FF",
+   "gold": "#FFD23F",
+   "green": "#B6FF3B",
+   "red": "#FF3B6B",
+   "note": "Glowing neon on near black."
+  },
+  {
+   "id": "newspaper",
+   "group": "classic",
+   "mode": "light",
+   "name": "Newspaper",
+   "tags": [
+    "classic",
+    "retro",
+    "light"
+   ],
+   "bg": "#EDE6D6",
+   "ink": "#1A1A1A",
+   "crew": [
+    "#1A1A1A",
+    "#8A2B2B",
+    "#2F4F6F",
+    "#4A4A4A",
+    "#6B5B3E"
+   ],
+   "accent": "#8A2B2B",
+   "gold": "#B08A3E",
+   "green": "#4F6B3E",
+   "red": "#8A2B2B",
+   "note": "Old print look."
+  },
+  {
+   "id": "notebook-doodle",
+   "group": "classic",
+   "mode": "light",
+   "name": "Notebook Doodle",
+   "tags": [
+    "classic",
+    "school",
+    "light"
+   ],
+   "bg": "#FFFDF4",
+   "ink": "#1F2A44",
+   "crew": [
+    "#E4572E",
+    "#2E86AB",
+    "#F3A712",
+    "#4CAF50",
+    "#8E5DB8"
+   ],
+   "accent": "#2E86AB",
+   "bgStyle": "notebook",
+   "styleHint": "doodle",
+   "note": "Pen on lined paper."
+  },
+  {
+   "id": "sepia-story",
+   "group": "classic",
+   "mode": "light",
+   "name": "Sepia Story",
+   "tags": [
+    "classic",
+    "retro",
+    "earthy",
+    "light"
+   ],
+   "bg": "#F3E7D3",
+   "ink": "#3B2A1A",
+   "crew": [
+    "#7A4E2D",
+    "#A0522D",
+    "#C08552",
+    "#5C4033",
+    "#8F6B4A"
+   ],
+   "accent": "#A0522D",
+   "gold": "#C9A227",
+   "green": "#6B7F3A",
+   "red": "#A0522D",
+   "note": "Warm old-photo browns."
+  },
+  {
+   "id": "sky-day",
+   "group": "classic",
+   "mode": "light",
+   "name": "Sky Day",
+   "tags": [
+    "classic",
+    "bright",
+    "light"
+   ],
+   "bg": "#CDEBFF",
+   "ink": "#14213D",
+   "crew": [
+    "#E63946",
+    "#1D3557",
+    "#2A9D8F",
+    "#F4A261",
+    "#8338EC"
+   ],
+   "accent": "#E63946",
+   "bgStyle": "outdoor",
+   "note": "Blue sky, bright crew."
+  },
+  {
+   "id": "garnet-sunrise",
+   "group": "palette",
+   "name": "Garnet Sunrise",
+   "colors": [
+    "#D3045D",
+    "#E484AC",
+    "#740C08",
+    "#B3CED6",
+    "#927B67",
+    "#523F2B"
+   ],
+   "mode": "light",
+   "tags": [
+    "palette",
+    "light"
+   ],
+   "source": "figma"
+  },
+  {
+   "id": "royal-gemstone-dusk",
+   "group": "palette",
+   "name": "Royal Gemstone Dusk",
+   "colors": [
+    "#D3045D",
+    "#0C8EF4",
+    "#D1BBAD",
+    "#2B384C",
+    "#A162A1",
+    "#0C287B"
+   ],
+   "mode": "light",
+   "tags": [
+    "palette",
+    "light"
+   ],
+   "source": "figma"
+  },
+  {
+   "id": "ruby-charcoal-twilight",
+   "group": "palette",
+   "name": "Ruby Charcoal Twilight",
+   "colors": [
+    "#D91B24",
+    "#761F21",
+    "#C4C4C4",
+    "#504141"
+   ],
+   "mode": "light",
+   "tags": [
+    "palette",
+    "light"
+   ],
+   "source": "figma"
+  },
+  {
+   "id": "emerald-ruby-dawn",
+   "group": "palette",
+   "name": "Emerald Ruby Dawn",
+   "colors": [
+    "#C4214A",
+    "#34542C",
+    "#AE5264",
+    "#EC849A",
+    "#67CA16"
+   ],
+   "mode": "light",
+   "tags": [
+    "palette",
+    "light"
+   ],
+   "source": "figma"
+  },
+  {
+   "id": "crimson-amethyst-nightfall",
+   "group": "palette",
+   "name": "Crimson Amethyst Nightfall",
+   "colors": [
+    "#D41414",
+    "#E19B8B",
+    "#0E0E0E",
+    "#403963",
+    "#310A69"
+   ],
+   "mode": "dark",
+   "tags": [
+    "palette",
+    "dark"
+   ],
+   "source": "figma"
+  },
+  {
+   "id": "emerald-sapphire-daybreak",
+   "group": "palette",
+   "name": "Emerald Sapphire Daybreak",
+   "colors": [
+    "#F3000E",
+    "#F25016",
+    "#6596F3",
+    "#83B366",
+    "#D3A4EA",
+    "#EAD094",
+    "#B2DCE2",
+    "#D7EAAC"
+   ],
+   "mode": "light",
+   "tags": [
+    "palette",
+    "light"
+   ],
+   "source": "figma"
+  },
+  {
+   "id": "rose-quartz-evening",
+   "group": "palette",
+   "name": "Rose Quartz Evening",
+   "colors": [
+    "#64242F",
+    "#B44446",
+    "#FC8F8F",
+    "#DFD9D8"
+   ],
+   "mode": "light",
+   "tags": [
+    "palette",
+    "light"
+   ],
+   "source": "figma"
+  },
+  {
+   "id": "amber-obsidian-autumn",
+   "group": "palette",
+   "name": "Amber Obsidian Autumn",
+   "colors": [
+    "#DC3C0C",
+    "#691F0C",
+    "#D3C0B2",
+    "#7A7A78",
+    "#E1E1E1",
+    "#1D1816"
+   ],
+   "mode": "light",
+   "tags": [
+    "palette",
+    "light"
+   ],
+   "source": "figma"
+  },
+  {
+   "id": "sunset-topaz-skies",
+   "group": "palette",
+   "name": "Sunset Topaz Skies",
+   "colors": [
+    "#FC0C04",
+    "#F5BF0F",
+    "#F2720C",
+    "#DAD5D0",
+    "#10EDF5",
+    "#9AC6C6",
+    "#2D11E9",
+    "#150D0D"
+   ],
+   "mode": "dark",
+   "tags": [
+    "palette",
+    "dark"
+   ],
+   "source": "figma"
+  },
+  {
+   "id": "rose-garnet-meadow",
+   "group": "palette",
+   "name": "Rose Garnet Meadow",
+   "colors": [
+    "#CC2454",
+    "#EC646C",
+    "#131213",
+    "#BDB7B9",
+    "#81142C",
+    "#4C2C34",
+    "#B0D19A"
+   ],
+   "mode": "light",
+   "tags": [
+    "palette",
+    "light"
+   ],
+   "source": "figma"
+  },
+  {
+   "id": "cherry-onyx-sundown",
+   "group": "palette",
+   "name": "Cherry Onyx Sundown",
+   "colors": [
+    "#541414",
+    "#F36363",
+    "#EF8182",
+    "#D0D0C8"
+   ],
+   "mode": "light",
+   "tags": [
+    "palette",
+    "light"
+   ],
+   "source": "figma"
+  },
+  {
+   "id": "autumn-ruby-harmony",
+   "group": "palette",
+   "name": "Autumn Ruby Harmony",
+   "colors": [
+    "#600D07",
+    "#B8230D",
+    "#D0716D",
+    "#F6ADDA",
+    "#F4942F",
+    "#B65B11",
+    "#5F4549"
+   ],
+   "mode": "light",
+   "tags": [
+    "palette",
+    "light"
+   ],
+   "source": "figma"
+  },
+  {
+   "id": "mermaid-garnet-symphony",
+   "group": "palette",
+   "name": "Mermaid Garnet Symphony",
+   "colors": [
+    "#C33F45",
+    "#95292D",
+    "#A3D9D9",
+    "#E2B0A5",
+    "#D89F58",
+    "#6D3871",
+    "#1A3567",
+    "#176571"
+   ],
+   "mode": "light",
+   "tags": [
+    "palette",
+    "light"
+   ],
+   "source": "figma"
+  },
+  {
+   "id": "mulberry-topaz-harvest",
+   "group": "palette",
+   "name": "Mulberry Topaz Harvest",
+   "colors": [
+    "#C90184",
+    "#B8062A",
+    "#CDBAB0",
+    "#D39539"
+   ],
+   "mode": "light",
+   "tags": [
+    "palette",
+    "light"
+   ],
+   "source": "figma"
+  },
+  {
+   "id": "magma-obsidian-spectrum",
+   "group": "palette",
+   "name": "Magma Obsidian Spectrum",
+   "colors": [
+    "#FE3B15",
+    "#545245",
+    "#9DA1AA",
+    "#3C3C4C",
+    "#B7B6AC"
+   ],
+   "mode": "dark",
+   "tags": [
+    "palette",
+    "dark"
+   ],
+   "source": "figma"
+  },
+  {
+   "id": "jeweled-autumn-shades",
+   "group": "palette",
+   "name": "Jeweled Autumn Shades",
+   "colors": [
+    "#E01305",
+    "#EDB55E",
+    "#7D58D9",
+    "#D6C3DF",
+    "#E1E1E1",
+    "#5CB855"
+   ],
+   "mode": "light",
+   "tags": [
+    "palette",
+    "light"
+   ],
+   "source": "figma"
+  },
+  {
+   "id": "sapphire-coral-breeze",
+   "group": "palette",
+   "name": "Sapphire Coral Breeze",
+   "colors": [
+    "#EE2835",
+    "#ED8171",
+    "#04529D",
+    "#3A6963"
+   ],
+   "mode": "light",
+   "tags": [
+    "palette",
+    "light"
+   ],
+   "source": "figma"
+  },
+  {
+   "id": "aqua-ruby-nightfall",
+   "group": "palette",
+   "name": "Aqua Ruby Nightfall",
+   "colors": [
+    "#F61C24",
+    "#41D2EF",
+    "#03020C",
+    "#1D2180"
+   ],
+   "mode": "dark",
+   "tags": [
+    "palette",
+    "dark"
+   ],
+   "source": "figma"
+  },
+  {
+   "id": "ocean-ruby-radiance",
+   "group": "palette",
+   "name": "Ocean Ruby Radiance",
+   "colors": [
+    "#D8226C",
+    "#F86A38",
+    "#B2DAE4",
+    "#029456",
+    "#005BB3"
+   ],
+   "mode": "light",
+   "tags": [
+    "palette",
+    "light"
+   ],
+   "source": "figma"
+  },
+  {
+   "id": "emerald-lapis-twilight",
+   "group": "palette",
+   "name": "Emerald Lapis Twilight",
+   "colors": [
+    "#DBEE82",
+    "#2C543C",
+    "#224074",
+    "#5D3067",
+    "#00C588",
+    "#678AF4",
+    "#BF6CE9"
+   ],
+   "mode": "dark",
+   "tags": [
+    "palette",
+    "dark"
+   ],
+   "source": "figma"
+  },
+  {
+   "id": "emerald-pond-reflections",
+   "group": "palette",
+   "name": "Emerald Pond Reflections",
+   "colors": [
+    "#0CDC2A",
+    "#384166",
+    "#0B735F",
+    "#639D75",
+    "#E3DBA9"
+   ],
+   "mode": "light",
+   "tags": [
+    "palette",
+    "light"
+   ],
+   "source": "figma"
+  },
+  {
+   "id": "jade-amethyst-forest",
+   "group": "palette",
+   "name": "Jade Amethyst Forest",
+   "colors": [
+    "#429155",
+    "#B69AD2",
+    "#1B1B1B",
+    "#1C4C2D",
+    "#3E2C5C",
+    "#585858"
+   ],
+   "mode": "dark",
+   "tags": [
+    "palette",
+    "dark"
+   ],
+   "source": "figma"
+  },
+  {
+   "id": "opal-forest-morning",
+   "group": "palette",
+   "name": "Opal Forest Morning",
+   "colors": [
+    "#126842",
+    "#F48B9A",
+    "#5CA484",
+    "#CFB177",
+    "#C9C3BD"
+   ],
+   "mode": "light",
+   "tags": [
+    "palette",
+    "light"
+   ],
+   "source": "figma"
+  },
+  {
+   "id": "emerald-spring-whisper",
+   "group": "palette",
+   "name": "Emerald Spring Whisper",
+   "colors": [
+    "#135E4B",
+    "#4CB572",
+    "#A1D8B5",
+    "#CCDCDB"
+   ],
+   "mode": "light",
+   "tags": [
+    "palette",
+    "light"
+   ],
+   "source": "figma"
+  },
+  {
+   "id": "emerald-harvest-twilight",
+   "group": "palette",
+   "name": "Emerald Harvest Twilight",
+   "colors": [
+    "#397234",
+    "#283F23",
+    "#3F2617",
+    "#0B0F08",
+    "#ACBD5E",
+    "#B78449"
+   ],
+   "mode": "dark",
+   "tags": [
+    "palette",
+    "dark"
+   ],
+   "source": "figma"
+  },
+  {
+   "id": "jungle-opal-morning",
+   "group": "palette",
+   "name": "Jungle Opal Morning",
+   "colors": [
+    "#3C9245",
+    "#FCB404",
+    "#F783A3",
+    "#F94315",
+    "#E4E3DB"
+   ],
+   "mode": "light",
+   "tags": [
+    "palette",
+    "light"
+   ],
+   "source": "figma"
+  },
+  {
+   "id": "emerald-moss-serenity",
+   "group": "palette",
+   "name": "Emerald Moss Serenity",
+   "colors": [
+    "#95E913",
+    "#549E06",
+    "#C6F486",
+    "#542C3C",
+    "#9D6777",
+    "#ADB5D6"
+   ],
+   "mode": "light",
+   "tags": [
+    "palette",
+    "light"
+   ],
+   "source": "figma"
+  },
+  {
+   "id": "jade-blossom-daylight",
+   "group": "palette",
+   "name": "Jade Blossom Daylight",
+   "colors": [
+    "#41B97D",
+    "#E7F8BE",
+    "#454545",
+    "#B3F7FE",
+    "#FCC5F8"
+   ],
+   "mode": "light",
+   "tags": [
+    "palette",
+    "light"
+   ],
+   "source": "figma"
+  },
+  {
+   "id": "emerald-bark-dusk",
+   "group": "palette",
+   "name": "Emerald Bark Dusk",
+   "colors": [
+    "#459245",
+    "#BE8B71",
+    "#3D582F",
+    "#2A2A2A"
+   ],
+   "mode": "dark",
+   "tags": [
+    "palette",
+    "dark"
+   ],
+   "source": "figma"
+  },
+  {
+   "id": "emerald-seashell-noon",
+   "group": "palette",
+   "name": "Emerald Seashell Noon",
+   "colors": [
+    "#05B084",
+    "#F1EDEA",
+    "#015A84",
+    "#BADFCD"
+   ],
+   "mode": "light",
+   "tags": [
+    "palette",
+    "light"
+   ],
+   "source": "figma"
+  },
+  {
+   "id": "emerald-lavender-lake",
+   "group": "palette",
+   "name": "Emerald Lavender Lake",
+   "colors": [
+    "#248C54",
+    "#89618E",
+    "#95DCE4"
+   ],
+   "mode": "light",
+   "tags": [
+    "palette",
+    "light"
+   ],
+   "source": "figma"
+  },
+  {
+   "id": "emerald-tangerine-morning",
+   "group": "palette",
+   "name": "Emerald Tangerine Morning",
+   "colors": [
+    "#EBEBDC",
+    "#28694B",
+    "#6E6E73",
+    "#FF5F2D"
+   ],
+   "mode": "light",
+   "tags": [
+    "palette",
+    "light"
+   ],
+   "source": "figma"
+  },
+  {
+   "id": "emerald-lilac-midday",
+   "group": "palette",
+   "name": "Emerald Lilac Midday",
+   "colors": [
+    "#1E6D31",
+    "#EB9EF6",
+    "#606060",
+    "#DCDCDC"
+   ],
+   "mode": "light",
+   "tags": [
+    "palette",
+    "light"
+   ],
+   "source": "figma"
+  },
+  {
+   "id": "turquoise-amethyst-frost",
+   "group": "palette",
+   "name": "Turquoise Amethyst Frost",
+   "colors": [
+    "#24D29B",
+    "#F4A3F3",
+    "#E6E6E6",
+    "#997F53",
+    "#344B73",
+    "#041C4D"
+   ],
+   "mode": "dark",
+   "tags": [
+    "palette",
+    "dark"
+   ],
+   "source": "figma"
+  },
+  {
+   "id": "sage-peridot-morning",
+   "group": "palette",
+   "name": "Sage Peridot Morning",
+   "colors": [
+    "#345C32",
+    "#9CAC54",
+    "#A7F0DD",
+    "#97CD97"
+   ],
+   "mode": "light",
+   "tags": [
+    "palette",
+    "light"
+   ],
+   "source": "figma"
+  },
+  {
+   "id": "amethyst-mint-harmony",
+   "group": "palette",
+   "name": "Amethyst Mint Harmony",
+   "colors": [
+    "#2A3F38",
+    "#562F54",
+    "#8DF688",
+    "#57585D",
+    "#F650BD"
+   ],
+   "mode": "dark",
+   "tags": [
+    "palette",
+    "dark"
+   ],
+   "source": "figma"
+  },
+  {
+   "id": "turquoise-sapphire-serenade",
+   "group": "palette",
+   "name": "Turquoise Sapphire Serenade",
+   "colors": [
+    "#BCFB89",
+    "#05C274",
+    "#094542",
+    "#85D5F6",
+    "#4750DD",
+    "#212161"
+   ],
+   "mode": "dark",
+   "tags": [
+    "palette",
+    "dark"
+   ],
+   "source": "figma"
+  },
+  {
+   "id": "aquamarine-citrine-daylight",
+   "group": "palette",
+   "name": "Aquamarine Citrine Daylight",
+   "colors": [
+    "#5D9F96",
+    "#ABE2F4",
+    "#FA7305",
+    "#072684",
+    "#A7CFC3"
+   ],
+   "mode": "light",
+   "tags": [
+    "palette",
+    "light"
+   ],
+   "source": "figma"
+  },
+  {
+   "id": "driftwood-pearl-morning",
+   "group": "palette",
+   "name": "Driftwood Pearl Morning",
+   "colors": [
+    "#BC7B6F",
+    "#E4A499",
+    "#5A322A",
+    "#718A9E",
+    "#CCCDC7"
+   ],
+   "mode": "light",
+   "tags": [
+    "palette",
+    "light"
+   ],
+   "source": "figma"
+  },
+  {
+   "id": "copper-aquamarine-dream",
+   "group": "palette",
+   "name": "Copper Aquamarine Dream",
+   "colors": [
+    "#DCAA89",
+    "#D6794D",
+    "#30525C",
+    "#4C848D",
+    "#C35627",
+    "#BFB9B5"
+   ],
+   "mode": "light",
+   "tags": [
+    "palette",
+    "light"
+   ],
+   "source": "figma"
+  },
+  {
+   "id": "lavender-sapphire-mist",
+   "group": "palette",
+   "name": "Lavender Sapphire Mist",
+   "colors": [
+    "#D9A69F",
+    "#6C739C",
+    "#F0DAD5",
+    "#BABBB1",
+    "#C56B62",
+    "#424658",
+    "#DEA785"
+   ],
+   "mode": "light",
+   "tags": [
+    "palette",
+    "light"
+   ],
+   "source": "figma"
+  },
+  {
+   "id": "jade-mahogany-muse",
+   "group": "palette",
+   "name": "Jade Mahogany Muse",
+   "colors": [
+    "#D4A49C",
+    "#8F6779",
+    "#585552",
+    "#ADCBBA",
+    "#5C3028"
+   ],
+   "mode": "light",
+   "tags": [
+    "palette",
+    "light"
+   ],
+   "source": "figma"
+  },
+  {
+   "id": "opal-seashell-cascade",
+   "group": "palette",
+   "name": "Opal Seashell Cascade",
+   "colors": [
+    "#C592A8",
+    "#F4CC9C",
+    "#3EBCB3",
+    "#DBDBDB"
+   ],
+   "mode": "light",
+   "tags": [
+    "palette",
+    "light"
+   ],
+   "source": "figma"
+  },
+  {
+   "id": "turquoise-peach-afternoon",
+   "group": "palette",
+   "name": "Turquoise Peach Afternoon",
+   "colors": [
+    "#40C4D0",
+    "#B87981",
+    "#DDDAD5",
+    "#CEAB8F"
+   ],
+   "mode": "light",
+   "tags": [
+    "palette",
+    "light"
+   ],
+   "source": "figma"
+  },
+  {
+   "id": "amethyst-wisteria-twilight",
+   "group": "palette",
+   "name": "Amethyst Wisteria Twilight",
+   "colors": [
+    "#744B93",
+    "#C889B5",
+    "#F0F0F0",
+    "#FCE5CC",
+    "#D0ADC4",
+    "#736EAE"
+   ],
+   "mode": "light",
+   "tags": [
+    "palette",
+    "light"
+   ],
+   "source": "figma"
+  },
+  {
+   "id": "heirloom-plum-brunch",
+   "group": "palette",
+   "name": "Heirloom Plum Brunch",
+   "colors": [
+    "#EC9CCC",
+    "#6F2451",
+    "#CCD0DC",
+    "#D0AFCD",
+    "#683759",
+    "#D45C1C"
+   ],
+   "mode": "light",
+   "tags": [
+    "palette",
+    "light"
+   ],
+   "source": "figma"
+  },
+  {
+   "id": "minted-citrine-dusk",
+   "group": "palette",
+   "name": "Minted Citrine Dusk",
+   "colors": [
+    "#A4D4D4",
+    "#847E7C",
+    "#ECA0B0",
+    "#E0CDB2"
+   ],
+   "mode": "light",
+   "tags": [
+    "palette",
+    "light"
+   ],
+   "source": "figma"
+  },
+  {
+   "id": "amber-walnut-morning",
+   "group": "palette",
+   "name": "Amber Walnut Morning",
+   "colors": [
+    "#BB6C43",
+    "#4A413C",
+    "#EBEFEE",
+    "#C8906D",
+    "#CCB499"
+   ],
+   "mode": "light",
+   "tags": [
+    "palette",
+    "light"
+   ],
+   "source": "figma"
+  }
+ ]
+}
